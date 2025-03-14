@@ -141,6 +141,23 @@
 
     .contact-right label {
         font-size: 16px;
+<<<<<<< HEAD
+    }
+
+    .contact-right input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .contact-right textarea {
+        font-size: 14px;
+    }
+
+    .contact-submit {
+        font-size: 14px;
+        padding: 10px 20px;
+=======
+>>>>>>> origin/master
     }
 
     .contact-right input {

@@ -26,7 +26,11 @@ const mywork_data = [
         w_no:4,
         w_name:"Web design",
         w_img:project4_img,
+<<<<<<< HEAD
         w_link:" "
+=======
+        w_link:"https://myportfolio-jet-two.vercel.app/"
+>>>>>>> origin/master
     },
 ]
  
