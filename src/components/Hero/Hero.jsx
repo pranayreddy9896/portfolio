@@ -14,7 +14,8 @@ const Hero = () => {
             crafting intuitive user interfaces or designing robust databases, I thrive on turning ideas into reality.</p>
     <div className="hero-action">
         <div className="hero-connect"> <AnchorLink className='anchor-link' offset={50} href='#contact'> Connect With Me </AnchorLink></div>
-            <div className="hero-resume"><a href={resumePdf} download="Pranay_Resume.pdf">Download Resume</a>
+            <div className="hero-resume">
+              <a href={resumePdf} download="Pranay_Resume.pdf">Download Resume</a>
             </div>
         </div>
     </div>
