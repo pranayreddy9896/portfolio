@@ -26,7 +26,7 @@ const mywork_data = [
         w_no:4,
         w_name:"Web design",
         w_img:project4_img,
-        w_link:"https://myportfolio-jet-two.vercel.app/"
+        w_link:" "
     },
 ]
  

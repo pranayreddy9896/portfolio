@@ -1,5 +1,5 @@
 .about {
-    display: flex-full;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
 
 .about-tittle h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
 
@@ -26,7 +26,8 @@
 
 .about-section {
     display: flex;
-    gap: 80px;
+    gap: 0px;
+    text-align:center;
 }
 
 .about-right {
@@ -41,7 +42,7 @@
     display: flex; /* Fixed typo: changed diplay to display */
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -60,7 +61,7 @@
 
 .about-skill p {
     min-width: 150px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -87,7 +88,7 @@
 }
 .about-achievement h1
 {
-    font-size:60px;
+    font-size:40px;
     font-weight:700;
     background:linear-gradient(270deg,#DF8908 50.41%,#B415FF90.25%);
     -webkit-background-clip:text;
