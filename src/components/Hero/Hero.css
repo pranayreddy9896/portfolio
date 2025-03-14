@@ -42,7 +42,7 @@
     cursor:pointer;
 }
 .hero-resume{
-    padding:25px 75px;
+    padding:25px 45px;
     border-radius:50px;
     border:2px solid #FFF;
     cursor:pointer;
@@ -55,6 +55,14 @@
 .hero-resume:hover{
     border-color:#B415FF;
 }
+.hero-resume a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+  }
+  
+  .hero-resume a:hover {
+    color: #007bff; /* Change color on hover (optional) */
+  }
   
   @media(max-width:768px)
   {
