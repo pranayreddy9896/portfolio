@@ -7,8 +7,10 @@
     margin: 50px 20px;
 }
 
+/* Title Section */
 .contact-title {
     position: relative;
+    text-align: center;
 }
 
 .contact-title h1 {
@@ -20,22 +22,27 @@
 .contact-title img {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
     width: 130px;
-    margin-right: -20px;
 }
 
+/* Contact Section Layout */
 .contact-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 50px;
+    max-width: 1200px;
+    width: 100%;
 }
 
+/* Contact Left (Info) */
 .contact-left {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
 .contact-left h1 {
@@ -72,10 +79,12 @@
     width: 25px;
 }
 
+/* Contact Right (Form) */
 .contact-right {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
     align-items: center;
 }
 
@@ -83,20 +92,10 @@
     color: #D8D8D8;
     font-size: 18px;
     font-weight: 500;
+    align-self: flex-start;
 }
 
-.contact-right input {
-    border: none;
-    width: 100%;
-    height: 50px;
-    padding-left: 15px;
-    border-radius: 4px;
-    background: #32323c;
-    color: #A0A0A0;
-    font-family: Outfit;
-    font-size: 16px;
-}
-
+.contact-right input,
 .contact-right textarea {
     width: 100%;
     border: none;
@@ -108,6 +107,15 @@
     font-size: 16px;
 }
 
+.contact-right input {
+    height: 50px;
+}
+
+.contact-right textarea {
+    resize: none;
+}
+
+/* Submit Button */
 .contact-submit {
     font-size: 16px;
     padding: 15px 30px;
@@ -119,7 +127,48 @@
 
 .contact-submit:hover {
     transform: scale(1.1);
+}
+
+/* Social Links */
+.social-links {
+    text-decoration: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    //background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 18px;
+    font-weight: 500;
     transition: 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-left h1 {
+        font-size: 35px;
+    }
+
+    .contact-left p,
+    .contact-details,
+    .contact-right label {
+        font-size: 16px;
+    }
+
+    .contact-title h1 {
+        font-size: 45px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -131,46 +180,27 @@
         font-size: 30px;
     }
 
-    .contact-left p {
-        font-size: 16px;
-    }
-
-    .contact-details {
-        font-size: 16px;
-    }
-
+    .contact-left p,
+    .contact-details,
     .contact-right label {
+        font-size: 14px;
+    }
+
+    .contact-right input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .contact-right textarea {
+        font-size: 14px;
+    }
+
+    .contact-submit {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .social-links a {
         font-size: 16px;
-<<<<<<< HEAD
-    }
-
-    .contact-right input {
-        height: 40px;
-        font-size: 14px;
-    }
-
-    .contact-right textarea {
-        font-size: 14px;
-    }
-
-    .contact-submit {
-        font-size: 14px;
-        padding: 10px 20px;
-=======
->>>>>>> origin/master
-    }
-
-    .contact-right input {
-        height: 40px;
-        font-size: 14px;
-    }
-
-    .contact-right textarea {
-        font-size: 14px;
-    }
-
-    .contact-submit {
-        font-size: 14px;
-        padding: 10px 20px;
     }
 }
