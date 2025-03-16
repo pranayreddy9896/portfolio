@@ -5,7 +5,6 @@ import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
-import theme_pattern from '../../assets/theme_pattern.svg'
 const Navbar = () => {
 
   const [menu,setMenu]=useState("home");
@@ -18,8 +17,7 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
-        <h1>Pranay</h1>
-        <img src={logo} alt="" />
+        <h1> PranaY</h1>
         <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef}className="nav-menu"> 
         <img src={menu_close}  onClick={closeMenu} alt="" className="nav-mob-close" />

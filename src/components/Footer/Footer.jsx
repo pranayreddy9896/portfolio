@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-            <h1>Pranay</h1>
+            <h1>PranaY</h1>
             <img src={theme_pattern} alt="footer-top-left" />
                 <p> For more information Subscribe.</p>
             </div>
