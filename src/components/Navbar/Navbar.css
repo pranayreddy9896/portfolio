@@ -12,6 +12,17 @@
     gap: 60px;
     font-size: 20px;
 }
+.navbar h1 {
+    padding: 0px 30px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .navbar img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
 .nav-menu li {
     display: inline-block;
     margin-right: 60px; 

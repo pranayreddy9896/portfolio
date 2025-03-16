@@ -2,12 +2,14 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 export const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt="" />
+            <h1>Pranay</h1>
+            <img src={theme_pattern} alt="footer-top-left" />
                 <p> For more information Subscribe.</p>
             </div>
             <div className="footer-top-right">
